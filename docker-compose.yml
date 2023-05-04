@@ -1,0 +1,10 @@
+version: "2"
+
+services:
+   hello-world:
+      build: ./
+      ports:
+         - "80:5000"
+      command: npm start
+
+
